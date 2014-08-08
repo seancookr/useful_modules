@@ -23,12 +23,18 @@ module FoodPreparer
   end
 
   def cook_ham n
-    puts "The Turkey was a #{n}/10"
+    puts "You cooked #{n} Hams"
   end
 
   def cook_potroast n
-    puts "The Turkey was a #{n}/10"
+    puts "the potroast took #{n} hours to cook"
   end
+
+  #The above methods are trivial examples, but the key point is that the outputs
+  #of the methods should all return the same type of object, while using differnt 
+  #logic to get there.  They also should take the same # of arguments
+
+  #For instance, if #cook_turkey takes *n, then the others should also take *n
 
 end
 

@@ -12,6 +12,7 @@ module Filterable
   end
 end
 
+# /products?status=status&location=location&starts_with=starts_with
 #def index
   #@products = Product.filter(params.slice(:status, :location, :starts_with))
 #end
